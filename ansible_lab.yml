@@ -19,7 +19,7 @@
         - baseline
 
     - name: Start Docker Engine
-      copy: name=docker state=started
+      path: name=docker state=started
       tags:
         - baseline
 
